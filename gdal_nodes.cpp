@@ -191,7 +191,7 @@ void OGRLoaderNode::process()
       }
       else
       {
-        std::cout << "unsupported geometry\n";
+        std::cout << "unsupported geometry (" << poGeometry->getGeometryName() << ")\n";
       }
     }
   }
